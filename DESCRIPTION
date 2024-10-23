@@ -1,0 +1,19 @@
+Package: SampleRiskRatioMulti
+Title: Calculo de Tamano Muestral para Razon de Riegos
+Version: 0.1.0
+Authors@R: 
+    person("Victor J.", "Vera-Ponce", email = "victor_jvp@hotmail.com",
+           role = c("aut", "cre"))
+Description: Este paquete proporciona herramientas para calcular el tamano 
+    muestral en estudios de cohorte que utilizan riesgo relativo como medida 
+    de asociacion, considerando analisis multivariables y aspectos logisticos 
+    del estudio. Incluye funciones para calculo del tamano muestral considerando 
+    la correlacion entre covariables, evaluacion de la potencia estadistica, 
+    y planificacion logistica del estudio.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    stats
+LazyData: true
